@@ -28,7 +28,7 @@ public class FakerApp {
             fakeUser.setFirstName(faker.name().firstName());
             fakeUser.setLastName(faker.name().lastName());
             fakeUser.setMail(faker.internet().emailAddress());
-            fakeUser.setPassword("toto");
+            fakeUser.setPassword("verybadpassword123");
             fakeUser.setBirthDate(faker.date().birthday().toString());
             fakeUser.setFavoriteSport(faveSport);
 
